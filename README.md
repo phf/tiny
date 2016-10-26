@@ -1,5 +1,9 @@
 # Tiny: An Experiment in Dejavafication
 
+A doubly-linked node base-class for endogenous lists.
+Lists are circular with a single sentinel node serving as the list header.
+Your class needs to subclass TinyNode to play.
+
 It's a linked list, but it's nothing like your *average* Java list class.
 In fact, it's loosely based on (but certainly not identical to) the infamous
 [exec lists](http://wiki.amigaos.net/wiki/Exec_Lists_and_Queues)
